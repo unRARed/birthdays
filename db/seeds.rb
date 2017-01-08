@@ -6,4 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Birthdate.create name: "Caleb Clapp", date: Date.parse('16th Feb 1988')
+Birthdate.create name: "Caleb Clapp",
+                 date: Date.parse('16th Feb 1988')
+Birthdate.create name: "Ryan Richardson",
+                 date: Date.parse('9th July 1983')
